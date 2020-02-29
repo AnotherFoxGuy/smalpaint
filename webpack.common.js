@@ -38,7 +38,7 @@ module.exports = {
             inject: true
         }),
         new MiniCssExtractPlugin({
-            filename: 'css/[name].css'
+            filename: 'css/[name].[chunkhash:8].css'
         })
     ],
 };
